@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+}
+
+main {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+
+    position: absolute; 
+    border-radius: 100%;
+    transform: translate(-50%, -50%);  
+    margin: 15px;
+}
+.cursor {
+  border-radius: 100%;
+  background-color: rgb(9, 236, 108);
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
+
+.first-circle {
+  top: 20%;
+  left: 15%;
+  margin: -4%;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  mix-blend-mode: overlay;
+}
+
+.second-circle {
+  top: 20%;
+  left: 85%;
+  margin: 8%;
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+  mix-blend-mode: overlay;
+}
